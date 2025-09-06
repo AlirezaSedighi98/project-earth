@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/ui/styles/globals.css";
 import { oswaldFont } from "@/ui/fonts";
+import Header from "@/ui/components/Header";
 
 export const metadata: Metadata = {
   title: "Project Earth",
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={oswaldFont.className}>{children}</body>
+      <body className={oswaldFont.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,0 +1,9 @@
+header {
+  @apply w-full h-80 px-30 pt-20 flex items-center justify-between absolute top-0 left-0 bg-primary;
+  button {
+    @apply text-white cursor-pointer;
+    h5 {
+      @apply inline-block mr-4;
+    }
+  }
+}
