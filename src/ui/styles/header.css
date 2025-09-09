@@ -1,9 +1,16 @@
 header {
-  @apply w-full h-80 px-30 pt-20 flex items-center justify-between absolute top-0 left-0 bg-primary;
+  @apply w-full h-80 px-30 pt-20 flex items-center justify-between absolute top-0 left-0;
   button {
     @apply text-white cursor-pointer;
     h5 {
       @apply inline-block mr-4;
     }
+  }
+}
+
+.drawer {
+  @apply fixed w-2/3 sm:w-1/2 h-dvh top-0 right-0 bg-gray/50 backdrop-blur-set transition-[translate] duration-200;
+  ul {
+    @apply flex flex-col items-center gap-20 text-larger mt-50;
   }
 }

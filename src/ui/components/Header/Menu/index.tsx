@@ -1,11 +1,16 @@
-import MenuIcon from "./MenuIcon";
+import DesktopMenu from "./DesktopMenu";
+import MobileMenu from "./MobileMenu";
 
 const Menu = () => {
   return (
-    <button>
-      <h5>MENU</h5>
-      <MenuIcon />
-    </button>
+    <>
+      <div className="md:hidden">
+        <MobileMenu />
+      </div>
+      <div className="hidden md:block">
+        <DesktopMenu />
+      </div>
+    </>
   );
 };
 

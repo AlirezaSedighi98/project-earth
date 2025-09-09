@@ -23,7 +23,10 @@ html {
 
   --text-small: 0.9rem;
   --text-base: 1rem;
+  --text-larger: 1.2rem;
   --text-large: 2rem;
+
+  --blur-set: 10px;
 
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;

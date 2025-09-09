@@ -10,6 +10,7 @@ const Logo = () => {
         height={736}
         alt="logo"
         className="h-full w-auto"
+        priority
       />
     </Link>
   );
