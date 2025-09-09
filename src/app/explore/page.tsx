@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const ExplorePage = (props: Props) => {
+const ExplorePage = () => {
   return <div>ExplorePage</div>;
 };
 
