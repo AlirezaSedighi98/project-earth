@@ -8,9 +8,8 @@ const MobileMenu = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleDocumentClick = (event: PointerEvent) => {
-    if (drawerRef) {
-      !drawerRef.current?.contains(event.target as Node) &&
-        setIsDrawerOpen(false);
+    if (drawerRef && !drawerRef.current?.contains(event.target as Node)) {
+      setIsDrawerOpen(false);
     }
   };
 

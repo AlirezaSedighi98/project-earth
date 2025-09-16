@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./header.css";
+@import "./hero.css";
 
 @font-face {
   font-family: story;
@@ -25,6 +26,11 @@ html {
   --text-base: 1rem;
   --text-larger: 1.2rem;
   --text-large: 2rem;
+  --text-big: 3rem;
+
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 700;
 
   --blur-set: 10px;
 
@@ -34,6 +40,8 @@ html {
   --breakpoint-xl: 1280;
   --breakpoint-2xl: 1536px;
 
+  --spacing-1rem: 1rem;
+  --spacing-2rem: 2rem;
   --spacing-0: 0px;
   --spacing-2: 2px;
   --spacing-4: 4px;
@@ -56,6 +64,6 @@ html {
   --spacing-80: 80px;
 }
 
-body {
+* {
   @apply box-border;
 }
