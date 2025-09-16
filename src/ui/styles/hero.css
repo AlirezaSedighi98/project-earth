@@ -1,5 +1,5 @@
 .hero-container {
-  @apply h-dvh bg-cover bg-center text-white text-large p-2rem flex flex-col gap-1rem md:mb-80 justify-end bg-[url(/images/mobile-hero-img.jpg)] sm:bg-[url(/images/hero-img.jpg)];
+  @apply h-dvh relative text-white text-large p-2rem flex flex-col gap-1rem md:mb-80 justify-end;
   h1 {
     @apply font-bold whitespace-pre-wrap md:whitespace-nowrap md:text-big;
   }
@@ -8,5 +8,8 @@
   }
   a {
     @apply self-start bg-yellow py-1rem px-2rem rounded-full text-larger cursor-pointer;
+  }
+  img {
+    @apply -z-10 object-cover;
   }
 }
