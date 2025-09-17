@@ -4,7 +4,7 @@ import HeroImg from "./HeroImg";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
+    <section className="hero-container">
       <HeroImg />
       <h1>{"DISCOVER\nEVERY CITY\nIN THE WORLD."}</h1>
       <p>
@@ -13,7 +13,7 @@ const Hero = () => {
         }
       </p>
       <Link href={"/explore"}>EXPLORE</Link>
-    </div>
+    </section>
   );
 };
 

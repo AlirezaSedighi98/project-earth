@@ -1,0 +1,110 @@
+[
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "population": 37000000,
+    "famousFor": "Anime, Cherry Blossoms",
+    "avgWeather": "Mild & Humid",
+    "localDish": "Ramen 🍜",
+    "description": "A vibrant megacity mixing tradition and futuristic vibes.",
+    "funFacts": [
+      "Has more Michelin-star restaurants than Paris",
+      "Shibuya Crossing is the busiest in the world"
+    ],
+    "photos": [
+      "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/tokyo1.jpg"
+    ],
+    "rating": 4.0,
+    "googleMaps": "https://maps.google.com/?q=Tokyo"
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "population": 11000000,
+    "famousFor": "Eiffel Tower, Fashion",
+    "avgWeather": "Mild",
+    "localDish": "Croissant 🥐",
+    "description": "Known as the City of Light, famous for art, romance, and history.",
+    "funFacts": [
+      "Eiffel Tower was meant to be temporary",
+      "Has the world’s largest art museum (Louvre)"
+    ],
+    "photos": [
+      "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/paris1.jpg"
+    ],
+    "rating": 3.7,
+    "googleMaps": "https://maps.google.com/?q=Paris"
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "population": 19000000,
+    "famousFor": "Times Square, Broadway",
+    "avgWeather": "Cold winters",
+    "localDish": "Pizza Slice 🍕",
+    "description": "The city that never sleeps, a hub for culture, finance, and diversity.",
+    "funFacts": [
+      "More than 200 languages spoken",
+      "Central Park is bigger than Monaco"
+    ],
+    "photos": [
+      "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/newyork1.jpg"
+    ],
+    "rating": 4.5,
+    "googleMaps": "https://maps.google.com/?q=New+York"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "population": 6700000,
+    "famousFor": "Carnival, Christ the Redeemer",
+    "avgWeather": "Warm & Humid",
+    "localDish": "Feijoada 🍲",
+    "description": "A coastal city with breathtaking landscapes and vibrant culture.",
+    "funFacts": [
+      "Sugarloaf Mountain offers 360° views",
+      "Copacabana Beach is world-famous"
+    ],
+    "photos": [
+      "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/rio1.jpg"
+    ],
+    "rating": 4,
+    "googleMaps": "https://maps.google.com/?q=Rio+de+Janeiro"
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "population": 9500000,
+    "famousFor": "Pyramids of Giza",
+    "avgWeather": "Hot & Dry",
+    "localDish": "Koshari 🍛",
+    "description": "A city blending ancient wonders with a bustling modern life.",
+    "funFacts": [
+      "Home to the last Ancient Wonder",
+      "Nile River runs through the city"
+    ],
+    "photos": [
+      "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/cairo1.jpg"
+    ],
+    "rating": 4.7,
+    "googleMaps": "https://maps.google.com/?q=Cairo"
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "population": 5300000,
+    "famousFor": "Opera House, Beaches",
+    "avgWeather": "Sunny",
+    "localDish": "Meat Pie 🥧",
+    "description": "A coastal gem with iconic landmarks and laid-back beach culture.",
+    "funFacts": [
+      "Has over 100 beaches",
+      "Sydney Opera House roof has 1M+ tiles"
+    ],
+    "photos": [
+      "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/sydney1.jpg"
+    ],
+    "rating": 3.5,
+    "googleMaps": "https://maps.google.com/?q=Sydney"
+  }
+]

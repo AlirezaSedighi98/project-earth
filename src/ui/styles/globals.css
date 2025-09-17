@@ -1,6 +1,17 @@
 @import "tailwindcss";
 @import "./header.css";
 @import "./hero.css";
+@import "./highlights.css";
+
+:root {
+  --primary-color: #575d60;
+  --yellow-color: #ffcc47;
+  --blue-color: #b8c8d5;
+  --gray-color: #d6dbde;
+  --red-color: #d65368;
+  --white-color: #f7f7f7;
+  --solid-white-color: white;
+}
 
 @font-face {
   font-family: story;
@@ -8,6 +19,7 @@
 }
 
 html {
+  @apply bg-white;
   font-size: 16px;
 }
 
@@ -15,12 +27,13 @@ html {
   --*: initial;
   --font-story: story;
 
-  --color-primary: #575d60;
-  --color-yellow: #ffcc47;
-  --color-blue: #b8c8d5;
-  --color-gray: #d6dbde;
-  --color-red: #d65368;
-  --color-white: #f7f7f7;
+  --color-primary: var(--primary-color);
+  --color-yellow: var(--yellow-color);
+  --color-blue: var(--blue-color);
+  --color-gray: var(--gray-color);
+  --color-red: var(--red-color);
+  --color-white: var(--white-color);
+  --color-solid-white: var(--solid-white-color);
 
   --text-small: 0.9rem;
   --text-base: 1rem;
@@ -39,6 +52,9 @@ html {
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280;
   --breakpoint-2xl: 1536px;
+
+  --radius-s: 1rem;
+  --radius-l: 2rem;
 
   --spacing-1rem: 1rem;
   --spacing-2rem: 2rem;

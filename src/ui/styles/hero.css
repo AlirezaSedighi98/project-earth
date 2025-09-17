@@ -1,5 +1,5 @@
 .hero-container {
-  @apply h-dvh relative text-white text-large p-2rem flex flex-col gap-1rem md:mb-80 justify-end;
+  @apply h-screen min-h-[430px] relative text-white text-large p-2rem flex flex-col gap-1rem justify-end;
   h1 {
     @apply font-bold whitespace-pre-wrap md:whitespace-nowrap md:text-big;
   }

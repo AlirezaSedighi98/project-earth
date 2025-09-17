@@ -1,0 +1,10 @@
+.highlights-container {
+  background: linear-gradient(to right, var(--blue-color) 50%, transparent 50%);
+}
+
+.breadcrumb {
+  @apply font-bold text-solid-white h-26 absolute z-10 bg-red w-fit right-0 top-50;
+  --s: 20px;
+  padding-inline: calc(var(--s) + 0.5rem) 0.5rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, var(--s) 50%);
+}
