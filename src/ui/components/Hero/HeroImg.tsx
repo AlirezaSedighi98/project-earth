@@ -4,16 +4,13 @@ const HeroImg = () => {
   return (
     <>
       <Image
+        priority
         fill
-        src={"/images/hero-img.jpg"}
+        sizes="100vw"
+        src={
+          "https://kuwswlhsvzkemdgc.public.blob.vercel-storage.com/pexels-maxime-francis-2246476.jpg"
+        }
         alt="hero-image"
-        className="hidden sm:block"
-      />
-      <Image
-        fill
-        src={"/images/mobile-hero-img.jpg"}
-        alt="hero-image"
-        className="sm:hidden"
       />
     </>
   );

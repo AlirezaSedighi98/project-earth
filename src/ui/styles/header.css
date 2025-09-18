@@ -1,5 +1,5 @@
 header {
-  @apply w-full h-80 px-30 pt-1rem flex items-center justify-between absolute top-0 left-0 z-10  md:bg-linear-to-b md:from-primary md:to-transparent;
+  @apply w-full h-80 px-30 pt-1rem flex items-center justify-between absolute top-0 left-0 z-20  md:bg-linear-to-b md:from-primary md:to-transparent;
   button {
     @apply text-white cursor-pointer;
     h5 {

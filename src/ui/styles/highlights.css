@@ -1,5 +1,16 @@
 .highlights-container {
-  background: linear-gradient(to right, var(--blue-color) 50%, transparent 50%);
+  background: linear-gradient(
+    to right,
+    var(--blue-color) 220px,
+    transparent 220px
+  );
+  @apply p-2rem;
+  h2 {
+    @apply text-large font-bold text-solid-white mb-2rem;
+  }
+  & > div {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2rem;
+  }
 }
 
 .breadcrumb {
@@ -7,4 +18,17 @@
   --s: 20px;
   padding-inline: calc(var(--s) + 0.5rem) 0.5rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, var(--s) 50%);
+}
+
+.card {
+  @apply h-[500px] rounded-s p-2rem bg-solid-white flex flex-col relative;
+  div + div {
+    @apply w-full h-full relative;
+  }
+  h4 {
+    @apply text-large;
+  }
+  h5 {
+    @apply text-larger opacity-30;
+  }
 }

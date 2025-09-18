@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 
 interface IProps {
@@ -8,23 +9,22 @@ interface IProps {
 }
 
 const Card: FC<IProps> = ({ title, country, imageUrl }) => {
-  console.log(imageUrl);
   return (
-    <div className="h-[500px] rounded-s p-2rem bg-solid-white flex flex-col relative">
+    <Link href={"/"} className="card">
       <div className="breadcrumb">POPULAR</div>
-      <div className="w-full h-full relative">
+      <div>
         <Image
           src={imageUrl}
-          className="object-cover object-center"
+          sizes="100%"
+          className="object-center object-cover"
           alt="preview"
           fill
-          loading="lazy"
         />
       </div>
 
-      <h4 className="text-large mt-auto">{title}</h4>
-      <h5 className="text-larger opacity-30">{country}</h5>
-    </div>
+      <h4>{title}</h4>
+      <h5>{country}</h5>
+    </Link>
   );
 };
 
